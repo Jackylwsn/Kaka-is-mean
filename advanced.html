@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Google Advanced Search</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="search-container">
+        <form onsubmit="return advancedSearch(event)">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo">
+            <div>
+                <label for="all-words">Find pages with all these words:</label>
+                <input type="text" name="all-words" class="search-bar">
+            </div>
+            <div>
+                <label for="exact-phrase">Find pages with this exact word or phrase:</label>
+                <input type="text" name="exact-phrase" class="search-bar">
+            </div>
+            <div>
+                <label for="any-words">Find pages with any of these words:</label>
+                <input type="text" name="any-words" class="search-bar">
+            </div>
+            <div>
+                <label for="none-words">Find pages with none of these words:</label>
+                <input type="text" name="none-words" class="search-bar">
+            </div>
+            <div class="button-container">
+                <input type="submit" value="Advanced Search" class="search-button">
+            </div
